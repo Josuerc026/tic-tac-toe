@@ -1,43 +1,27 @@
 .ttt-container {
-    display: grid;
-    width: 500px;
-    margin: 0 auto;
-    grid-template-columns: repeat(3, 33.33%);
-    grid-template-rows: repeat(3, 100px);
-}
-
-.ttt-container div {
-    border-bottom: 1px solid #000;
-}
-
-.ttt-container div:nth-child(n + 7) {
-    border-bottom: none;
-}
-
-.ttt-container div:nth-child(3n + 1) {
-    border-right: 1px solid #000;
-}
-
-.ttt-container div:nth-child(3n) {
-    border-left: 1px solid #000;
-}
+  display: grid;
+  width: 300px;
+  margin: 0 auto;
+  grid-template-columns: repeat(3, 33.33%);
+  grid-template-rows: repeat(3, 100px); }
+  .ttt-container div {
+    border-bottom: 1px solid #000; }
+    .ttt-container div:nth-child(n + 7) {
+      border-bottom: none; }
+    .ttt-container div:nth-child(3n + 1) {
+      border-right: 1px solid #000; }
+    .ttt-container div:nth-child(3n) {
+      border-left: 1px solid #000; }
 
 .player-turns {
-    font-weight: bold;
-}
+  font-weight: bold; }
 
 .p1-active {
-    background: yellow;
-}
-
-.p1-active:after {
-    content: 'X';
-}
+  background: yellow; }
+  .p1-active:after {
+    content: 'X'; }
 
 .p2-active {
-    background: royalblue;
-}
-
-.p2-active:after {
-    content: 'O';
-}
+  background: royalblue; }
+  .p2-active:after {
+    content: 'O'; }
